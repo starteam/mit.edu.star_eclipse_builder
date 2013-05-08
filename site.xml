@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature url="features/edu.mit.star.pythonfeature_1.0.0.201010141344.jar" id="edu.mit.star.pythonfeature" version="1.0.0.201010141344">
+      <category name="PythonPlugin"/>
+   </feature>
+   <feature url="features/edu.mit.star.builderfeature_1.0.1.201010141344.jar" id="edu.mit.star.builderfeature" version="1.0.1.201010141344">
+      <category name="STARPlugin"/>
+   </feature>
+   <category-def name="PythonPlugin" label="PythonPlugin"/>
+   <category-def name="STARPlugin" label="STARPlugin"/>
+</site>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<project name="StarGenetics" default="publish" basedir=".">
+
+	<target name="publish" depends="">
+		<echo>Publishing and signing</echo>
+		<exec executable="scp">
+			<arg value="-r"/>
+			<arg value="." />
+			<arg value="ceraj@starapp.mit.edu:/home/star/star/media/uploads/star/updates" />
+		</exec>
+		
+	</target>
+
+</project>
